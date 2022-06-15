@@ -58,6 +58,7 @@ class MainActivity : ComponentActivity() {
 
     @Composable
     fun Greeting(name: String) {
+        var c = Country("NZ", "New Zealand")
         Text(text = "Hello $name!")
     }
 
@@ -126,7 +127,7 @@ class MainActivity : ComponentActivity() {
     }
 
     var strSelectedCountry = "No country selected"
-    var selectedCountrty = Country("","")
+    var selectedCountry = Country("","")
 
     @Composable
     fun TextFieldWithDropdownUsage(countriesIn: List<Country>) {
