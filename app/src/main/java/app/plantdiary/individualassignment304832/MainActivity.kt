@@ -58,7 +58,6 @@ class MainActivity : ComponentActivity() {
 
     @Composable
     fun Greeting(name: String) {
-        var c = Country("NZ", "New Zealand")
         Text(text = "Hello $name!")
     }
 

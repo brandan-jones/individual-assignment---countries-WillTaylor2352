@@ -80,7 +80,7 @@ class CountryUnitTest {
     }
 
     @Test
-    fun `Given service connects to Countries JSON stream when data are read and parsed then country collection should be greater than zero`() =runTest {
+    fun `Given service connects to Countries JSON stream when data are read and parsed then country collection should be greater than zero`() = runTest {
         launch(Dispatchers.Main) {
             givenCountryServiceIsInitialized()
             whenServiceDataAreReadAndParsed()
