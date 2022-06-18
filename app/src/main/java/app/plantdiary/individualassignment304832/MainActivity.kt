@@ -126,7 +126,7 @@ class MainActivity : ComponentActivity() {
     }
 
     var strSelectedCountry = "No country selected"
-    var selectedCountrty = Country("","")
+    var selectedCountry = Country("","")
 
     @Composable
     fun TextFieldWithDropdownUsage(countriesIn: List<Country>) {
